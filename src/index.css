@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.containersignup {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.password_eye {
+  position: relative;
+}
+
+.password_eye .eye_btn {
+  position: absolute;
+  top: 2px;
+  right: 0;
+}
+
+.password_eye .eye_btn button,
+.password_eye .eye_btn button:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.login-btn {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-btn button {
+  background-color: #2373B2;
+  border: none;
+  padding: 7px 20px;
+  color: #fff;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.submit-btn input {
+  background-color: #2373B2;
+  border: none;
+  padding: 7px 20px;
+  color: #fff;
+}
+
+.signup-form {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.form-border {
+  border: 1px solid black;
+}
+
+.login-form {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+
+}
+
+.login-form-border {
+  border: 1px solid black;
+}
